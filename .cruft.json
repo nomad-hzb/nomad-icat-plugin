@@ -1,0 +1,35 @@
+{
+  "template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+  "commit": "b67d40d4d5d4be4a639baa56ecf9af41f1680830",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Marcus Lewerenz",
+      "email": "marcus.lewerenz@helmholtz-berlin.de",
+      "github_username": "nomad-hzb",
+      "plugin_name": "nomad-icat-plugin",
+      "module_name": "nomad_icat_plugin",
+      "short_description": "A plugin to work on an ICAT storage",
+      "version": "0.1.0",
+      "license": "MIT",
+      "include_schema_package": true,
+      "include_normalizer": false,
+      "include_parser": false,
+      "include_app": false,
+      "include_example_uploads": false,
+      "include_action": true,
+      "include_api": true,
+      "include_north_tools": true,
+      "north_tool_name": "my_north_tool",
+      "include_dashboard": true,
+      "include_citation_file": false,
+      "_copy_without_render": [
+        "*.html",
+        "*.png"
+      ],
+      "_template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+      "_commit": "b67d40d4d5d4be4a639baa56ecf9af41f1680830"
+    }
+  },
+  "directory": null
+}
